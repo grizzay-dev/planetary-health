@@ -32,7 +32,7 @@ def codeScanned(id):
         f.close()
 
         #Redirect to information page.
-        return redirect("http://www.google.com", code=302)
+        return redirect("https://bondplaneteers2021.wixsite.com/bond-planeteers", code=302)
 
 @app.route("/log")
 def viewLogs():
